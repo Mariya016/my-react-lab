@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /* Distribute space between logo, menu, and user actions */
+  align-items: center;  /* Center vertically */
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
@@ -35,7 +35,7 @@
 
 .user-actions {
   display: flex;
-  gap: 10px;  
+  gap: 10px;  /* Space between the action links */
 }
 
 .user-action-link {
@@ -51,10 +51,11 @@
   background-color: #444;
 }
 
+/* Additional styles for sign-in and log-in buttons */
 .sign-in {
-  background-color: gray
+  background-color: #888; /* Light gray background for Sign In */
 }
 
 .log-in {
-  background-color: grey 
+  background-color: #666; /* Darker gray background for Log In */
 }
