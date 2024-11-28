@@ -1,20 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Components/Header';
-import Content from './Components/Content';
+// App.js
 import React from 'react';
-
-
+import './App.css';  
+import Navbar from './Components/Navbar';  
+import LandingPage from './Components/LandingPage';  
+import Footer from './Components/Footer';
+import Form from'./Components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <h1>"A Small Web Page"</h1>
-     <h2> Your Roll.no...</h2>
-      <Header/>    
-      <Content/>
+    <div>
+      <Navbar />
+      <LandingPage />
+      <Form />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default App; 
