@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles/landingpage.css'; // Correct CSS file import
-
+import '../styles/landingpage.css'; 
 
 const LandingPage = () => {
   return (

@@ -1,0 +1,60 @@
+.message {
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    float: right;
+}
+
+.message:hover {
+   
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); 
+}
+
+
+.message h2 {
+    font-size: 1.8rem; 
+    color:brown; 
+    margin-bottom: 16px; 
+    font-weight: 600; 
+    text-align: center;
+    
+}
+
+
+.message p {
+    font-size: 1.1rem; 
+    color: grey; 
+    margin: 15px 0; 
+    line-height: 1.5; 
+    font-weight: 700; 
+    
+}
+
+
+.message p:not(:last-child) {
+    border-bottom: 3px solid #ddd; 
+    padding-bottom: 12px; 
+}
+
+
+@media (max-width: 768px) {
+    .message {
+        max-width: 90%; 
+        padding: 15px; 
+        
+    }
+
+    .message h2 {
+        font-size: 1.5rem; 
+       
+    }
+
+    .message p {
+        font-size: 1rem; 
+    }
+}
