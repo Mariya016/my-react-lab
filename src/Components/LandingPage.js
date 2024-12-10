@@ -1,14 +1,18 @@
 import React from 'react';
-import '../styles/landingpage.css'; 
+import '../styles/landingpage.css';
 
-const LandingPage = () => {
-  return (
-    <div className="landing-container">
-      <h className="landing-title">COSMETIC CITY</h>
-      <p1 className="landing-subtitle">BEST DEALS, BEST PRODUCTS</p1>
-      <button className="landing-button">Learn More</button>
-    </div>
-  );
-};
+function LandingPage() {  
+    return (
+        <div className="landing-container">
+            <h1 className="landing-title">Welcome to Cosmetic City</h1> 
+            <p className="landing-subtitle">
+                Best Deals and Best Products!
+            </p>
+            <button className="landing-button">
+                Learn More
+            </button>
+        </div>
+    );
+}
 
 export default LandingPage;

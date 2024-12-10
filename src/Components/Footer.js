@@ -10,7 +10,7 @@ function Footer() {
           <h2>MyCompany</h2>
         </div>
 
-        {/* Footer Links Section */}
+        
         <div className="footer-links">
           <ul>
             <li><a href="/about">About Us</a></li>

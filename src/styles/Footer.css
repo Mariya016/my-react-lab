@@ -14,8 +14,8 @@
 }
 
 .footer-logo h2 {
-  margin: 0;
-  font-size: 1.5em;
+  margin: 3;
+  font-size: 1.0em;
 }
 
 .footer-links ul {
@@ -38,12 +38,12 @@
 
 .footer-socials a {
   color: #fff;
-  margin-right: 15px;
+  margin-right: 10px;
   text-decoration: none;
 }
 
 .footer-socials a:hover {
-  color: #0077b5; /* Change to a blue color on hover for social media */
+  color: #0077b5; 
 }
 
 .footer-bottom {

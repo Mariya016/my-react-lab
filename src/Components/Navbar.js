@@ -16,7 +16,7 @@ function Navbar() {
         <li><a href="#" className="navbar-link">Contact</a></li>
       </ul>
       
-      {/* User actions (Sign In, Log In) */}
+     
       <div className="user-actions">
         <a href="#" className="user-action-link sign-in">Sign In</a>
         <a href="#" className="user-action-link log-in">Log In</a>
