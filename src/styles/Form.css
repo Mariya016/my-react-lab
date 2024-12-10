@@ -1,11 +1,10 @@
-
+/* General form container styling */
 form {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: -10px;
-  margin: 10px auto;
-  max-width: 300px;
-
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

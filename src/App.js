@@ -1,17 +1,20 @@
+// App.js
 import React from 'react';
-import Navbar from './Components/Navbar';
-import LandingPage from './Components/LandingPage';
+import './App.css';  
+import Navbar from './Components/Navbar';  
+import LandingPage from './Components/LandingPage';  
 import Footer from './Components/Footer';
+import Form from'./Components/Form';
 
-function App(){
-  return(
-
+function App() {
+  return (
     <div>
-
-      <Navbar/>
-      <LandingPage/>
-      <Footer/>  
+      <Navbar />
+      <LandingPage />
+      <Form />
+      <Footer />
     </div>
   );
 }
-export default App;
+
+export default App; 
