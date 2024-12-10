@@ -1,5 +1,3 @@
-
-/* landingpage.css */
 .landing-container {
     display: flex;
     flex-direction: column;
@@ -8,49 +6,35 @@
     height: calc(100vh - 80px);
     text-align: center;
     background-color: #f4f4f4;
-    background-image: url('https://images.unsplash.com/photo-1598528738936-c50861cc75a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFrZXVwJTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  
-  .landing-title {
+    background-image: url('https://png.pngtree.com/background/20230612/original/pngtree-various-makeup-products-lie-on-a-table-on-dark-picture-image_3185889.jpg'); /* Add this line */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+    .landing-title {
     font-size: 3rem;
+    
     margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow for better readability */
-    font-family: 'Roboto', sans-serif; /* Use Google font */
-  }
-  
-  .landing-subtitle {
+    color: whitesmoke;
+    }
+    .landing-subtitle {
     font-size: 1.5rem;
     margin-bottom: 30px;
-    color: #ddd; /* Lighter color for better contrast */
+    color: whitesmoke;
     max-width: 600px;
     padding: 0 20px;
-    font-family: 'Roboto', sans-serif; /* Use Google font */
-  }
-  
-  .landing-button {
+    }
+    .landing-button {
     padding: 12px 30px;
     font-size: 1rem;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 30px; /* Rounded button for modern look */
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
-    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Subtle shadow for depth */
-  }
-  
-  .landing-button:hover {
+    transition: background-color 0.3s ease;
+    }
+    .landing-button:hover {
     background-color: #0056b3;
-    transform: translateY(-3px); /* Button lift effect */
-    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4); /* Hover shadow effect */
-  }
-  
-  .landing-container h1, .landing-container p {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
+    }
